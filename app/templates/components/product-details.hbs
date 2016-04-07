@@ -1,0 +1,12 @@
+
+<div class="productDetail">
+  <h1>{{product.title}}</h1>
+  <img class="product-details" src="{{product.image}}">
+  <p>{{product.description}}</p>
+  ${{product.cost}}
+  <p><button {{action 'addToCart' product}}>Add to Cart</button></p>
+  {{#each product.feedbacks as |feedback|}}
+    {{feedback-tile feedback=feedback deleteFeedback="deleteFeedback"}}
+  {{/each}}
+</div>
+{{display-cart}}

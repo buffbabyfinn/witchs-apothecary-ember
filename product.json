@@ -1,0 +1,18 @@
+{
+  "products" : [ {
+    "cost" : 15,
+    "description" : "An unholy fungus from deep in the forest",
+    "image" : "http://media.treehugger.com/assets/images/2013/08/Lions_Mane_Mushroom1.jpg.650x0_q70_crop-smart.jpg",
+    "title" : "Fungus"
+  }, {
+    "cost" : 45,
+    "description" : "Delicious and healthy plant, good for spells.",
+    "image" : "https://s-media-cache-ak0.pinimg.com/736x/45/8c/da/458cda95372aa312737b4d0db5630b4e.jpg",
+    "title" : "Ant Fern"
+  }, {
+    "cost" : 3,
+    "description" : "Potent herb",
+    "image" : "http://i.huffpost.com/gadgets/slideshows/261867/slide_261867_1732560_free.jpg",
+    "title" : "Star Anise"
+  } ]
+}

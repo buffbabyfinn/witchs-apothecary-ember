@@ -1,0 +1,7 @@
+<div class="adminTile">
+  <h4>{{product.title}}</h4>
+  <p>{{product.description}}</p>
+  ${{product.cost}}
+{{update-product product=product update="update"}}
+<button class="deleteButton" {{action 'delete' product}}>X</button>
+</div>

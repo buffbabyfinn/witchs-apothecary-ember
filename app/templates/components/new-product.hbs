@@ -1,0 +1,19 @@
+
+{{#if newProductForm}}
+<h2> Add a new product </h2>
+  <form>
+    <div class='form-group'>
+      <label for='title'>Title:</label>
+      {{input value=title id='title'}}
+      <label for='description'>Description:</label>
+      {{textarea value=description id='description'}}
+      <label for='cost'>Cost:</label>
+      {{input value=cost id='cost'}}
+      <label for='image'>Image URL:</label>
+      {{input value=image id='image'}}
+    </div>
+    <button class="btn" {{action 'addProduct'}}>Save</button>
+  </form>
+{{else}}
+<button class="btn" {{action 'newProductFormShow'}}>Add new product</button>
+{{/if}}

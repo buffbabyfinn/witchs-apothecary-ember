@@ -1,0 +1,47 @@
+$nav-text: #BDA0CB;
+
+.tile-image {
+  max-width: 300px;
+}
+.navbar {
+  background-color: #333;
+}
+.navlink{
+  color: $nav-text;
+  :hover {
+    color: #72587F;
+  }
+}
+.footer-text {
+  color: $nav-text;
+  padding-left: 10px;
+  padding-right: 10px;
+  :hover {
+    color: #72587F;
+  }
+}
+
+.header-text {
+  color: $nav-text;
+  padding-left: 10px;
+  padding-right: 10px;
+  :hover {
+    color: #72587F;
+  }
+}
+
+.index-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-details {
+  width: 300px;
+  height: 300px;
+}
+
+.admin-display {
+  border: solid black 4px;
+  border-radius: 3px;
+}

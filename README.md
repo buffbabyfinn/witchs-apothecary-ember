@@ -1,7 +1,6 @@
 # E-commerce
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An ECommerce site allowing you to add and edit items, add and remove things from a shopping cart, and total all items in the shopping cart. 
 
 ## Prerequisites
 
